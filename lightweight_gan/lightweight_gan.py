@@ -1092,7 +1092,7 @@ class Trainer():
 
     @property
     def image_extension(self):
-        return 'jpg' if not self.transparent else 'png'
+        return 'png'
 
     @property
     def checkpoint_num(self):
